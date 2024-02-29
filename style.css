@@ -1,0 +1,226 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+#tabs-top{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 35px;
+    border: 1px;
+    margin: auto;
+    float: right;
+    z-index: 500;
+    background-color: lightgray;
+}
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    color: lavenderblush;
+    font-weight: 800;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    border: 1;
+    margin: auto;
+    float: right;
+    z-index: 500;
+    background-color: lightgray;
+}
+
+#tabs-bottom a{
+     float: left;
+    display: block;
+    width: 33%;
+    color: lavenderblush;
+    font-weight: 800;
+    margin: auto;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.blur-image{
+    filter: blur(5px); 
+}
+
+#main{
+    margin-top: 30px;
+    background: url('images/Background%20mall%20picture.PNG');
+    background-repeat: repeat-y;
+    background-repeat: round;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 100%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+h3{
+   margin-top: 10px;
+    color: black;
+}
+
+a.info-box{
+    margin-bottom: 20px;
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+#main-home{
+     margin-top: 10px;
+    background: url('images/Movies%20Background%20image.PNG');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+#main-home h3{
+    padding-top: 1px;
+}
+
+#mains-home {
+    background-image: url('images/Background%20mall%20picture.PNG');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+p{
+    color: black;
+}
+ 
+figure{
+    margin-left: 300px;
+    padding-top: 20px;
+}
+
+
+figcaption{
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 10x;
+    background-color: aliceblue;
+    margin-right: 250px;
+}
+
+#image-to-edit{
+    width: 100%;
+    height: auto;
+}
+
+.widen-image{
+    width: 50%;
+    max-width: 800px;
+    height: auto;
+    margin-left: 300px;
+}
+
+#image-container{
+    border: 1;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+ul{
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.button{
+    width: 100%;
+    height: 35px;
+    background-color: lightgray;
+}
+
+
+p{
+    color: black;
+    font-family: Helvetica sans-serif;
+    font-size: 18px;
+}
+
+#content-home h3{
+    color: black;
+}
+
+#content-home  p{
+    color: #150115;
+}
+
+h2 {
+    font-weight: 800px;
+    text-decoration: none;
+}
+
+.button {
+    position: bottom;
+    top: 50%;
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 35px;
+    min-width: 120px;
+}
+
+a.info-box h3{
+    padding-top: 20px;
+}
+
+.gallery img{
+    width: 100%;;
+    height: 232px;
+}
+#home img{
+    width: 33%;
+    height: 417px;
+}
